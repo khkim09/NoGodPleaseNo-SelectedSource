@@ -1,6 +1,6 @@
 # No God! Please No! - Selected Source Code
 
-> 팀 프로젝트 **No God! Please No!**에서 제가 직접 작성하거나 주도적으로 구현·리팩토링한 주요 C# 소스만 선별한 채용 포트폴리오용 저장소입니다.  
+> 팀 프로젝트 **No God! Please No!** 에서 제가 직접 작성하거나 주도적으로 구현·리팩토링한 주요 C# 소스만 선별한 채용 포트폴리오용 저장소입니다.  
 > 원본 팀 프로젝트 전체와 팀원이 작성한 소스, 에셋, 씬 데이터는 포함하지 않습니다. 본 저장소는 **코드 검토용 선별본**이며 단독 빌드/실행을 목적으로 하지 않습니다.
 
 ## Project Overview
@@ -16,16 +16,16 @@
 | 프로그래밍 기여도 | 약 35% - Git 이력과 실제 담당 기능 기준 |
 | 출시 | Steam 정식 출시 |
 
-- Gameplay Video: https://www.youtube.com/watch?v=b4sUalKoP0s
-- Steam: https://store.steampowered.com/app/4179710/No_God_Please_No/
+- Gameplay Video : https://www.youtube.com/watch?v=b4sUalKoP0s
+- Steam : https://store.steampowered.com/app/4179710/No_God_Please_No/
 
 ## Main Contributions
 
-- **몬스터 AI / 도발 타겟팅**: NavMesh 도달 가능성 판정, `PrimaryTarget` / `ActionTarget` 분리, 도달 불가 상황의 대체 행동, 도발 세션 기반 리타겟팅
-- **멀티플레이 세션 예외 처리**: 클라이언트 비정상 이탈 시 투표 모수 재계산, Steam P2P / Vivox / 플레이어 상태 정리
-- **서버 중심 공유 상태 관리**: 공용 재화, 마을 피해 상태, 제단 업그레이드 요청 검증 및 적용
-- **캐릭터 공통 구조**: ScriptableObject 기반 스탯 확장, 공통 스탯 인터페이스, 서버 중심 궁극기 충전/사용 구조
-- **런타임 안정화**: CPU/GPU Frame Time을 기준으로 한 단계형 Auto Frame Cap 및 Listen Server 별도 기준 적용
+- **몬스터 AI / 도발 타겟팅** : NavMesh 도달 가능성 판정, `PrimaryTarget` / `ActionTarget` 분리, 도달 불가 상황의 대체 행동, 도발 세션 기반 리타겟팅
+- **멀티플레이 세션 예외 처리** : 클라이언트 비정상 이탈 시 투표 모수 재계산, Steam P2P / Vivox / 플레이어 상태 정리
+- **서버 중심 공유 상태 관리** : 공용 재화, 마을 피해 상태, 제단 업그레이드 요청 검증 및 적용
+- **캐릭터 공통 구조** : ScriptableObject 기반 스탯 확장, 공통 스탯 인터페이스, 서버 중심 궁극기 충전/사용 구조
+- **런타임 안정화** : CPU/GPU Frame Time을 기준으로 한 단계형 Auto Frame Cap 및 Listen Server 별도 기준 적용
 
 ## Source Guide
 
